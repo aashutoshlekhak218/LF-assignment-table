@@ -409,7 +409,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 40%;
+  width: 60%;
 }
 
 .experience-card-left > p {
@@ -702,7 +702,7 @@ h2 {
   }
 
   .experience-card-left {
-    width: 60%;
+    width: 80%;
   }
 
   .sidebar {
@@ -721,8 +721,13 @@ h2 {
     width: 100%;
   }
   .two-skills {
-    padding-left: 0;
-    padding-right: 0;
+    flex-direction: column;
+  }
+  .two-skills > div:first-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--Gray-Lightest, #e2e6ee);
+    border-bottom-width: 50%;
+    padding-bottom: 10px;
   }
 }
 
