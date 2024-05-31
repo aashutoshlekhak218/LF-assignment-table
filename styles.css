@@ -311,7 +311,6 @@ h2 {
 
 .project-cards-container:first-child {
   border-radius: 8.081px 0px 0px 8.081px;
-  border-color: red;
 }
 .project-cards-container:last-child {
   border-radius: 0px 8.081px 8.081px 0px;
@@ -397,6 +396,26 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.experience-card-container {
+  display: flex;
+  gap: 10px;
+}
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.experience-timeline-divider {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+.divider-svg {
+  height: 100%;
 }
 
 .experience-card {
@@ -504,6 +523,14 @@ h2 {
   background: var(--Gray-Lightest-2, #f7f9fc);
 }
 
+.education-card:first-child {
+  border-radius: 8.081px 0px 0px 8.081px;
+}
+
+.education-card:last-child {
+  border-radius: 0px 8.081px 8.081px 0px;
+}
+
 .education-card .education-card-title {
   display: flex;
   align-items: center;
@@ -594,6 +621,14 @@ h2 {
   width: 100%;
   background: var(--Gray-Lightest-2, #f7f9fc);
   padding: 16px;
+}
+
+.skill-item:first-child {
+  border-radius: 8.081px 0px 0px 8.081px;
+}
+
+.skill-item:last-child {
+  border-radius: 0px 8.081px 8.081px 0px;
 }
 
 .two-skills {
