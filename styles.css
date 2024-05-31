@@ -266,7 +266,7 @@ h2 {
     0px 2.02px 2.02px 0px rgba(0, 0, 0, 0.04) inset;
 }
 
-.main-body-tim .section-title {
+.main-body-timeline .section-title {
   color: var(--Gray-Darker, #2e2e48);
   font-family: Outfit;
   font-size: 24.242px;
@@ -278,6 +278,22 @@ h2 {
   margin-top: 20px;
 }
 
+.main-body-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.time-line-divider {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.divider-svg {
+  height: 100%;
+}
 .section-container-content {
   width: 90%;
 }
